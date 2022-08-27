@@ -1,0 +1,36 @@
+.pg__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+  box-shadow: 1px 2px 5px 2px #efefef;
+  padding: 21px 25px;
+  font-family: "Roboto", sans-serif;
+}
+.pg__image img {
+  width: 150px;
+}
+.left__pg__data {
+  display: flex;
+}
+.pg__discription {
+  margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .pg__box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 15px 0px;
+    box-shadow: 1px 2px 5px 2px #efefef;
+    padding: 20px 25px;
+  }
+  .pg__discription h2 {
+    font-size: 16px;
+  }
+  .pg__discription p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

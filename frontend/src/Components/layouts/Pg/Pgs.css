@@ -1,0 +1,62 @@
+.pg__dashboard {
+  display: flex;
+  justify-content: center;
+}
+.pgs {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.pg__filtering {
+  width: 10%;
+  border-right: 2px solid black;
+  padding-right: 25px;
+}
+.pg__filtering {
+  display: flex;
+  /* margin: 0 auto; */
+  flex-direction: column;
+}
+.pg__filtering select {
+  text-align: center;
+}
+
+.pg__filtering select {
+  margin: 10px 0;
+  font-size: 22px;
+  text-align: center;
+  background-color: #6a5d8a;
+  cursor: pointer;
+  color: white;
+  padding: 8px 0px;
+  border: 1px solid #6a5d8a;
+  -webkit-appearance: none;
+}
+.pg__filtering option {
+  cursor: pointer;
+  color: white;
+  background-color: #292435;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .pg__dashboard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pgs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .pg__filtering {
+    width: 80%;
+    margin: 0 auto;
+    border-right: none;
+    padding-right: 0px;
+  }
+}

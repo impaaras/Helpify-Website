@@ -1,0 +1,38 @@
+.ride__box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 5px 1px #c8c8c8;
+  text-align: center;
+  width: fit-content;
+  margin: 15px 15px;
+  border-radius: 10px 10px 0px 0px;
+  padding-bottom: 15px;
+}
+.ride__box .ride_image img {
+  width: 220px;
+  border-radius: 10px 10px 0px 0px;
+}
+.ride__box .ride_name h2 {
+  padding: 30px 0px 0px;
+  font-size: 18px;
+}
+.ride__box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.6s ease-in-out;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+  .ride__box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 5px 1px #efefef;
+    width: 100%;
+    padding: 10px 15px;
+    /* margin: 15px 15px; */
+    margin: 10px auto;
+  }
+  .ride__box .ride_image img {
+    width: 230px;
+  }
+}
